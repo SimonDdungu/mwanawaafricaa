@@ -27,7 +27,7 @@
     align-items: center;
 }
 .Volunteer_Details input{
-    
+    color: white;
     border: 2px solid #4b5d75;
     padding: 15px 20px;
     background-color: #2f4159;
@@ -48,9 +48,75 @@
     transition: all 0.1s ease;
     text-align: center;
     color: black;
+    
 }
 .V_JoinUs:hover{
     background-color: #2f4159;
     color: white;
+    text-decoration: none;
 }
 
+/*--------IPAD 12 PRO------*/
+@media (max-width: 1030px){
+    .Volunteer_content{
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    .V_Headings{
+        width: 200px;
+        margin-right: 10px;
+    }
+
+    .V_JoinUs{
+        margin-right: 40px;
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+    
+}
+
+/*------IPAD 11 PRO--------*/
+@media (max-width: 840px){
+    .Volunteer_content{
+        flex-direction: column;
+    }
+    .V_Headings{
+        width: 100%;
+        margin-right: 0;
+    }
+    .Volunteer_Details input{
+        padding: 10px 20px;
+    }
+    .V_JoinUs{
+        margin-right: 40px;
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+}
+
+/*-------IPHON 13 PRO MAX--------*/
+@media (max-width: 430px){
+    
+    .Volunteer_Details{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    .Volunteer_Details input{
+        margin-right: 0px;
+        margin-bottom: 10px;
+        
+    }
+}
+
+/*----------IPHONE 13 PLUS-------*/
+@media (max-width: 400px){
+    .Big-heading{
+        font-size: 35px;
+    }
+    .Volunteer_Details input{
+        padding-right: 40px;
+    }
+}

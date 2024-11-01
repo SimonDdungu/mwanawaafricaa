@@ -13,7 +13,7 @@ return (
                 <form className="Volunteer_Details">
                     <input type="text" placeholder="Enter name" required/>
                     <input type="email" placeholder="Enter email" required/>
-
+                    
                     <button className="V_JoinUs">Join us</button>
                 </form>
 

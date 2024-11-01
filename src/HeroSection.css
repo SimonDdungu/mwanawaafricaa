@@ -79,19 +79,19 @@
 /*----------IPHONE 12 PRO MAX-----*/
 @media (max-width: 435px){
     .Hero_Content{
-        width: 70%;
-        top: 20%;
-        left: 60px;
+        width: 100%;
+        top: 62%;
+        left: 0px;
         
     }
     .overlay{
         width: 100svw;
-        height: 70svh;
+        height: 100svh;
         background-image: none;
         background-color: rgba(0, 0, 0, 0.807);
     }
     .Hero_Content > h1{
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     }
     .Hero_Content > p{
@@ -99,13 +99,15 @@
         text-align: center;
         width: 100%;
     }
+    .Hero_buttons{
+        text-align: center;
+    }
     .Hero_Donate, .Hero_LearnMore{
         padding: 13px;
         font-size: 18px;
     }
     .Hero_Section{
-        height: 70svh;
-        
+        height: 100svh; 
     }
 }
 
@@ -115,15 +117,8 @@
         padding: 13px;
         font-size: 16px;
     }
-    
-    .Hero_Section, .overlay{
-        height: 70svh;
-    }
 
-    .Hero_Content > h1{
-        font-size: 28px;
-        text-align: center;
-    }
+
     .Hero_buttons{
         text-align: center;
     }
@@ -135,15 +130,13 @@
         padding: 13px;
         font-size: 16px;
     }
-    
+    .Hero_Content{
+        top: 55%;
+    }
     .Hero_Section, .overlay{
-        height: 80svh;
+        height: 100svh;
     }
 
-    .Hero_Content > h1{
-        font-size: 28px;
-        text-align: center;
-    }
     
 }
 
@@ -155,8 +148,7 @@
         font-size: 16px;
     }
     .Hero_Content{
-        width: 80%;
-        left: 39px;
+        top: 61%;
     }
     .Hero_buttons{
         margin-top: 30px;
@@ -170,15 +162,17 @@
     .Hero_buttons{
         margin-top: 20px;
     }
-    
     .Hero_Content > h1{
-        margin-bottom: 5px;
+        font-size: 38px;
     }
 }
 /*---------IPHONE SE---------*/
 @media (max-width: 380px) and (max-height: 670px){
     .Hero_Section, .overlay{
-        height: 80svh;
+        height: 100svh;
+    }
+    .Hero_Content{
+        top: 59%;
     }
     .Hero_buttons{
         margin-top: 20px;
