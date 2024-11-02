@@ -1,9 +1,9 @@
 
 function HeroSection(){
-    return (
-
-        <section className="Hero_Section">
-            <div className="overlay"></div>
+    return <section className="Hero_Section">
+            <div className="overlay">
+                
+            </div>
             <div className="Hero_Content container">
                 <h1>Transforming Lives, <br /><span className="Orange_color">One Child</span> at a Time</h1>
                 <p>Every child deserves a chance to succeed. By supporting our mission, 
@@ -17,7 +17,6 @@ function HeroSection(){
                 
             </div>
         </section>
-    );
 }
 
 export default HeroSection;

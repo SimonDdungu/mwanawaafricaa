@@ -6,6 +6,7 @@ body{
     padding: 0;
     font-family: Helvetica;
     overscroll-behavior: none;
+    position: relative;
 }
 .Hamburger_menu{
     display: none;
