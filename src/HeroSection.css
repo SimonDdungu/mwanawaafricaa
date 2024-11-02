@@ -76,8 +76,8 @@
     }
 }
 
-/*----------IPHONE 12 PRO MAX-----*/
-@media (max-width: 435px){
+/*----------IPHONE 13 and 14 and 16 PRO MAX-----*/
+@media (max-width: 442px){
     .Hero_Content{
         width: 100%;
         top: 62%;
