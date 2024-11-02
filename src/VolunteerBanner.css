@@ -120,3 +120,13 @@
         padding-right: 110px;
     }
 }
+
+/*-------SAMSUNG S9 PLUS--------*/
+@media (max-width: 340px){
+    .Big-heading{
+        font-size: 31px;
+    }
+    .Volunteer_Details input{
+        padding-right: 80px;
+    }
+}

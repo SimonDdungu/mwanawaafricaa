@@ -143,3 +143,12 @@
             font-size: 22px;
     }
 }
+
+
+/*-------SAMSUNG S9 PLUS--------*/
+@media (max-width: 365px){
+    .Each_card{
+        width: 340px;
+    }
+}
+

@@ -202,3 +202,13 @@
     }
 }
 
+
+/*-------SAMSUNG S9 PLUS--------*/
+@media (max-width: 340px){
+    .Hero_Content{
+        top: 54%;
+    }
+    .Hero_Content > h1{
+        font-size: 32px;
+    }
+}
