@@ -2,7 +2,7 @@ import NavBAR from './NavBar'
 import HeroSection from './HeroSection'
 import VolunteerBanner from './VolunteerBanner'
 import Feautres from './Features'
-
+import Causes from './Causes'
 
 
 
@@ -11,6 +11,7 @@ import './Navigation.css'
 import './HeroSection.css'
 import './VolunteerBanner.css'
 import './Features.css'
+import './Causes.css'
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <HeroSection />
             <VolunteerBanner />
             <Feautres />
+            <Causes />
            </>
 }
 
